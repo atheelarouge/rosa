@@ -282,6 +282,7 @@ header {
   color: var(--main-font-color-dark);
   letter-spacing: 0.7rem;
   margin-right: -0.7rem;
+  transition: color 0.5s;
 }
 
 .global-headline .sub-headline {
@@ -295,6 +296,7 @@ header {
 
 .restaurant-description {
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .restaurant-description p {
@@ -331,3 +333,45 @@ header {
 }
 
 /* Testful Recipes */
+.tasteful-recipes {
+  background: url("./images/tasteful-recipes.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.between {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+}
+
+.tasteful-recipes h1 {
+  margin-left: 2rem;
+  transition: color 0.5s;
+}
+
+.tasteful-recipes h1:hover {
+  color: #fff;
+}
+
+/* Discover Our Menu */
+
+.image-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.discover-our-menu .restaurant-description {
+  padding-top: 3rem;
+  margin-bottom: 0;
+}
+
+/* The Perfect Blend */
+.perfect-blend {
+  background: url("images/perfect-blend.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.perfect-blend .headline-dark:hover {
+  color: #fff;
+}
