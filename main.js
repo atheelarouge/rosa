@@ -19,7 +19,3 @@ imgChange.addEventListener("mouseover", function() {
 imgChange.addEventListener("mouseout", function() {
   document.querySelector("#img1").setAttribute("src", "./images/menu-group-1.jpg" );
 });
-
-imgChange.addEventListener("click", function() {
-  window.location.href = "http://www.midashoes.com/";
-});
