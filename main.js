@@ -19,3 +19,21 @@ imgChange.addEventListener("mouseover", function() {
 imgChange.addEventListener("mouseout", function() {
   document.querySelector("#img1").setAttribute("src", "./images/menu-group-1.jpg" );
 });
+
+// Scroll Reveal
+
+window.sr = ScrollReveal();
+
+sr.reveal(".animate-left", {
+  origin: "left",
+  duration: 1000,
+  distance: "25rem",
+  delay: 300
+});
+
+sr.reveal(".animate-right", {
+  origin: "right",
+  duration: 1000,
+  distance: "25rem",
+  delay: 600
+});
